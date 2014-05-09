@@ -5,7 +5,6 @@
         "angular": "latest",
         "jquery": "latest",
         "async": "latest",
-        "bootstrap": "latest",
         "underscore": "latest"
     }
 }
