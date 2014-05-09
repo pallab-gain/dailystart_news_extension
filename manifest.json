@@ -1,0 +1,20 @@
+{
+    "name": "NewsFeed",
+    "version": "0.1",
+    "permissions": [
+        "notifications",
+        "webRequest",
+        "tabs",
+        "http://www.thedailystar.net/front/ajax/get_tricker_news"
+    ],
+    "background": {
+        "page": "index.html"
+    },
+    "browser_action": {
+
+    },
+    "web_accessible_resources": [
+        "notifications.png"
+    ],
+    "manifest_version": 2
+}
