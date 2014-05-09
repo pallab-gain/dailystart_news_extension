@@ -27,10 +27,10 @@ app.controller('newsFeed', function ($scope, $timeout, fetchNews) {
     var interval = undefined;
     var rewind = undefined;
     var notification = undefined;
-    var tension = 15;
+    var tension = 30;
     setInterval(function () {
         fetchNews.fetch().then(function () {
-            interval = interval || 300000;
+            interval = interval || 3000000;
             if (_.isEqual(previousNews, fetchNews.latest)) {
                 if (rewind === 'rewind') {
                     rewind = undefined;
